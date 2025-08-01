@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",            // versão JS de saída
+    "module": "CommonJS",          // sistema de módulos
+    "rootDir": "src",              // pasta de código-fonte
+    "outDir": "dist",              // pasta de build
+    "strict": true,                // ligue todas as checagens estritas
+    "esModuleInterop": true,       // para importações compatíveis
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
